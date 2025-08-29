@@ -10,8 +10,8 @@ const GridPortfolio = () => {
   
   // Custom Tailwind class for the grid background pattern
   const bgGridStyle = {
-    backgroundColor: '#f8fafc',
-    backgroundImage: `linear-gradient(to right, #e2e8f0 1px, transparent 1px), linear-gradient(to bottom, #e2e8f0 1px, transparent 1px)`,
+    backgroundColor: '#2b5988ff',
+    backgroundImage: `linear-gradient(to right, #ffffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffffff 1px, transparent 1px)`,
     backgroundSize: '2rem 2rem'
   };
 
@@ -25,10 +25,10 @@ const GridPortfolio = () => {
             <LanguageToggle lang={lang} setLang={setLang} />
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight mb-2">
-            {lang === 'en' ? 'My Projects' : 'Mis Proyectos'}
+            {lang === 'en' ? 'My Project' : 'Mi Proyecto'}
           </h1>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            {lang === 'en' ? 'A showcase of my featured projects and websites.' : 'Una muestra de mis proyectos y sitios web destacados.'}
+            {lang === 'en' ? 'My final project and website.' : 'Mi projecto y website final.'}
           </p>
         </header>
         
@@ -42,7 +42,7 @@ const GridPortfolio = () => {
         {/* Footer with a simple message */}
         <footer className="text-center mt-10">
           <p className="text-sm text-gray-400">
-            {lang === 'en' ? 'Created with ❤️ and a touch of magic.' : 'Creado con ❤️ y un toque de magia.'}
+            {lang === 'en' ? 'Created by Ariadne Olmo Bousoño.' : 'Creado por Ariadne Olmo Bousoño.'}
           </p>
         </footer>
       </div>
