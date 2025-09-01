@@ -11,8 +11,8 @@ export const projects = [
       es: "Mi proyecto final",
     },
     image: "Alis shelter.png",
-    liveSite: "https://ari-ob.github.io/website/",
-    githubRepo: "https://github.com/Ari-OB/website.git",
+    liveSite: "https://ari-ob.github.io/website-final/",
+    githubRepo: "https://github.com/Ari-OB/website-final.git",
   },
   // Add more projects here...
 ];
